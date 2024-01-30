@@ -1,3 +1,36 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+.read-all, .name {
+    text-decoration: none;
+}
+
+.read-all, .notification-inner {
+    color: hsl(219, 12%, 42%);
+}
+
+h1, .name {
+    color: hsl(224, 21%, 14%);
+}
+
+.date {
+    color: hsl(219, 14%, 63%);
+}
+
+a.link {
+    color: hsl(219, 85%, 26%);
+    text-decoration: none;
+}
+
+.message p {
+    color: hsl(219, 14%, 63%);
+}
+
+.unread {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: hsl(1, 90%, 64%);
+}
