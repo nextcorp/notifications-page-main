@@ -38,7 +38,7 @@ a.post-link {
     color: hsl(219, 12%, 42%);
 }
 
-.unread-dot {
+.dot {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -70,4 +70,12 @@ a.post-link {
 
 p, a {
     font-weight: 500;
+}
+
+.notification:not(.unread) .dot {
+    display: none;
+}
+
+.notification.unread a.name:hover, .notification.unread a.link:hover, .read-all:hover {
+    color: hsl(219, 85%, 26%);
 }
