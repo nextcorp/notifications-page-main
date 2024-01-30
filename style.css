@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -18,19 +22,52 @@ h1, .name {
     color: hsl(219, 14%, 63%);
 }
 
-a.link {
-    color: hsl(219, 85%, 26%);
+a {
     text-decoration: none;
 }
 
-.message p {
-    color: hsl(219, 14%, 63%);
+a.group-link {
+    color: hsl(219, 85%, 26%);
 }
 
-.unread {
+a.post-link {
+    color: hsl(219, 12%, 42%);
+}
+
+.message p {
+    color: hsl(219, 12%, 42%);
+}
+
+.unread-dot {
     display: inline-block;
     width: 8px;
     height: 8px;
     border-radius: 50%;
     background: hsl(1, 90%, 64%);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.read-all {
+    margin-left: auto;
+}
+
+.counter {
+    background: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+}
+
+.name, .header h1, a.link {
+    font-weight: 800;
+}
+
+p, a {
+    font-weight: 500;
 }
