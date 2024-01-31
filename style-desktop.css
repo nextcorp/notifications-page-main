@@ -1,0 +1,51 @@
+@media screen and (min-width: 731px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 100vh;
+        background: hsl(211, 68%, 94%);
+    }
+
+    .main {
+        max-width: 731px;
+        padding-bottom: 1rem;
+        border-radius: 12px;
+    }
+
+    .header {
+        margin-inline: 2rem;
+        margin-top: 2rem;
+    }
+
+    .row {
+        display: flex;
+        margin-top: 3rem;
+        margin-inline: 2.5rem;
+    }
+
+    .row:nth-child(6) .notification {
+        display: flex;
+        width: 100%;
+    }
+
+    .notification-inner-img {
+        margin-left: auto;
+    }
+
+    .notification {
+        margin-left: 1.5rem;
+    }
+
+    .pfp, .notification-inner-img {
+        max-width: 45px;
+        max-height: 45px;
+    }
+
+    .message {
+        margin-top: 0.5rem;
+        padding-inline: 1rem;
+        padding-block: 0.7rem;
+    }
+}
