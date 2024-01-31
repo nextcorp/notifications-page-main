@@ -10,15 +10,20 @@
         margin-inline: 1.5rem;
     }
 
-    /*.row:nth-child(6) .notification-inner {
-        display: flex;
-        align-items: center;
-    }*/
-
-    .notification-inner-img {
-        margin-left: auto;
+    /* for some reason this element did'nt want to be aligned on the right */
+    .row:nth-child(6) .notification-inner {
+        display: inline-grid;
+        width: calc(100% - 1.5rem);        
     }
 
+    .row:nth-child(6), .row:nth-child(6) .notification {
+        width: calc(100% - 1.5rem);
+    }
+    
+    .notification-inner-img {
+        justify-self: flex-end;
+    }
+    
     .row:last-child {
         margin-bottom: 2rem;
     }
