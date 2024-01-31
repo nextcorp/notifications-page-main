@@ -11,6 +11,8 @@
     }
 
     /* for some reason this element did'nt want to be aligned on the right */
+    /* dont work for 375px */
+    /* todo: fix image alignment for 375px */
     .row:nth-child(6) .notification-inner {
         display: inline-grid;
         width: calc(100% - 1.5rem);        
