@@ -9,4 +9,13 @@
         margin-top: 2rem;
         margin-inline: 2rem;
     }
+
+    .row:nth-child(6) .notification-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .notification {
+        margin-left: 0.5rem;
+    }
 }
