@@ -5,6 +5,7 @@
     }
 
     .row {
+        display: flex;
         margin-top: 2rem;
         margin-inline: 2rem;
     }
