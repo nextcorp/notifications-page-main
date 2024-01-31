@@ -19,9 +19,13 @@
         margin-top: 2rem;
     }
 
+    .row:first-child {
+        margin-top: 3rem;
+    }
+
     .row {
         display: flex;
-        margin-top: 3rem;
+        margin-top: 2.5rem;
         margin-inline: 2.5rem;
     }
 
@@ -47,5 +51,16 @@
         margin-top: 0.5rem;
         padding-inline: 1rem;
         padding-block: 0.7rem;
+    }
+
+    .counter {
+        margin-left: 0.7rem;
+    }
+}
+
+@media screen and (max-height: 805px) {
+    body {
+        align-items: unset;
+        height: unset;
     }
 }
