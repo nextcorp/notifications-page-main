@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 2000px) {
     .header {
         margin-inline: 1rem;
         margin-top: 1rem;
@@ -7,15 +7,29 @@
     .row {
         display: flex;
         margin-top: 2rem;
-        margin-inline: 2rem;
+        margin-inline: 1.5rem;
     }
 
-    .row:nth-child(6) .notification-inner {
+    /*.row:nth-child(6) .notification-inner {
         display: flex;
         align-items: center;
+    }*/
+
+    .notification-inner-img {
+        margin-left: auto;
+    }
+
+    .row:last-child {
+        margin-bottom: 2rem;
     }
 
     .notification {
         margin-left: 0.5rem;
+    }
+
+    .message {
+        margin-top: 1rem;
+        padding-inline: 1rem;
+        padding-block: 1rem;
     }
 }

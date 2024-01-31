@@ -27,7 +27,7 @@ a {
 }
 
 a.link {
-    margin-inline: 0.2rem;
+    /*margin-inline: 0.2rem;*/
     text-decoration: none;
 }
 
@@ -37,6 +37,10 @@ a.group-link {
 
 a.post-link {
     color: hsl(219, 12%, 42%);
+}
+
+.message {
+    border: 1px solid hsl(205, 33%, 90%);
 }
 
 .message p {
