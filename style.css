@@ -23,6 +23,11 @@ h1, .name {
 }
 
 a {
+    display: inline-block;
+}
+
+a.link {
+    margin-inline: 0.2rem;
     text-decoration: none;
 }
 
@@ -44,6 +49,7 @@ a.post-link {
     height: 8px;
     border-radius: 50%;
     background: hsl(1, 90%, 64%);
+    margin-inline: 0.25rem;
 }
 
 .header {
@@ -62,6 +68,10 @@ a.post-link {
 .counter {
     background: hsl(219, 85%, 26%);
     color: hsl(0, 0%, 100%);
+    padding-inline: 0.7rem;
+    padding-block: 0.25rem;
+    border-radius: 8px;
+    margin-left: 0.3rem;
 }
 
 .name, .header h1, a.link {
@@ -78,4 +88,9 @@ p, a {
 
 .notification.unread a.name:hover, .notification.unread a.link:hover, .read-all:hover {
     color: hsl(219, 85%, 26%);
+}
+
+.pfp {
+    width: 40px;
+    height: 40px;
 }

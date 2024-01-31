@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .header {
+        margin-inline: 1rem;
+        margin-top: 1rem;
+    }
+
+    .row {
+        margin-top: 2rem;
+        margin-inline: 2rem;
+    }
+}
