@@ -14,8 +14,20 @@ body {
     text-decoration: none;
 }
 
-.read-all, .notification-inner {
+.read-all {
     color: hsl(219, 12%, 42%);
+}
+
+.notification-inner {
+    color: hsl(219, 14%, 63%);
+}
+
+.row {
+    border-radius: 12px;
+}
+
+.row:has(.notification.unread) {
+    background: hsl(211, 68%, 94%);
 }
 
 h1, .name {
@@ -49,6 +61,11 @@ a.post-link {
 
 .message p {
     color: hsl(219, 12%, 42%);
+}
+
+.message:hover {
+    background: hsl(211, 68%, 94%);
+    cursor: pointer;
 }
 
 .dot {
