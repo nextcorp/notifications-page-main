@@ -26,5 +26,12 @@ function update() {
     unreadCounter.textContent = unreadNotifs.length
 }
 
+// function to test
+function makeUnread(n) {
+    const allNotifs = document.querySelectorAll(".notification")
+    for (let i=0; i<n; i++) allNotifs[i].classList.add("unread")
+    reset()
+    update()
+}
 
 update()
